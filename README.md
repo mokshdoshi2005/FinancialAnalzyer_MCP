@@ -44,43 +44,48 @@ FinanceIQ Analyzer is an MCP (Model Context Protocol) server that processes fina
 
 1. Clone the repository
    ```bash
-   git clone https://github.com/your-username/financeiq-analyzer.git
+   git clone https://github.com/mokshdoshi2005/FinancialAnalzyer_MCP.git
    cd financeiq-analyzer
    ```
 
 2. Create virtual environment
-   ```bash
-   python -m venv finance-analyzer-env
-   source finance-analyzer-env/bin/activate  # On Windows: finance-analyzer-env\Scripts\activate
-   ```
-
-3. Install dependencies using UV
-   ```bash
-   uv install
-   ```
-
-4. Install MCP CLI for testing
-   ```bash
-   pip install mcp-cli
-   ```
-
-5. Configure Claude Desktop
+   Reference [this](https://python.land/virtual-environments/virtualenv) to setup Virtual Environment.
+   Virtual Environment is optional but recommended.
    
-   Edit your Claude Desktop configuration file to include the MCP server:
-   ```json
-   {
-     "mcpServers": {
-       "finance-analyzer": {
-         "command": "uv",
-         "args": ["run", "python", "src/finance_analyzer_server.py"]
-       }
-     }
-   }
+4. Install dependencies using UV
+   ```
+   pip install -r requirements.txt
    ```
 
-6. Run the MCP server
+5. For Web_server, setup .env with respective API key
+   ```
+   CEQUENCE_GATEWAY_URL=https://api.cequence.ai/v1
+   CEQUENCE_API_KEY=your_api_key_here
+   SERVER_PORT=8000
+   SERVER_HOST=0.0.0.0
+   ```
+
+6. Create/Edit Claude Desktop Config
+Location:
+
+macOS: ```~/Library/Application Support/Claude/claude_desktop_config.json```
+Windows: ```%APPDATA%\Claude\claude_desktop_config.json```
+```
+json{
+  "mcpServers": {
+    "financial-document-analyzer": {
+      "command": "python",
+      "args": ["/absolute/path/to/your/project/src/mcp_server.py"],
+      "env": {
+        "PYTHONPATH": "/absolute/path/to/your/project"
+      }
+    }
+  }
+}
+```
+6. Run the Local MCP server
    ```bash
-   mcp run finance_analyzer_server.py
+   mcp run mcp_server.py
    ```
 
 7. Test the connection
