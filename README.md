@@ -1,6 +1,6 @@
 # FinanceIQ Analyzer
 
-An intelligent financial document analysis tool that helps individuals and businesses make informed financial decisions through automated contract review, loan comparison, and cost optimization.
+An MCP-powered financial document assistant that automatically parses complex financial paperwork to identify critical information, generate digestible summaries, and respond to user queries about document contents.
 
 ## Team: Fantastic404
 
