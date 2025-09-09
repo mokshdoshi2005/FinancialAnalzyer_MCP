@@ -117,9 +117,18 @@ Once running, you can use Claude Desktop to:
 - **MCP CLI** - Testing and development tools
 
 ### Python Libraries
-
-- to be added
-
+```
+mcp>=0.9.0
+fastapi>=0.104.0
+uvicorn>=0.24.0
+pydantic>=2.5.0
+aiohttp>=3.9.0
+python-multipart>=0.0.6
+pytest>=7.4.0
+pytest-asyncio>=0.21.0
+requests>=2.31.0
+python-dotenv>=1.0.0
+```
 ## Demo Video
 
 [Watch Demo Video](add link)
