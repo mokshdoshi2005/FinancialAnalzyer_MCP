@@ -150,4 +150,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-Built during [Hackathon Name] by Team Code Crushers
+Built during Global MCP Hackathon by Team Fantastic404
