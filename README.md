@@ -69,6 +69,7 @@ FinanceIQ Analyzer is an MCP (Model Context Protocol) server that processes fina
 Location:
 
 macOS: ```~/Library/Application Support/Claude/claude_desktop_config.json```
+
 Windows: ```%APPDATA%\Claude\claude_desktop_config.json```
 ```
 json{
@@ -92,7 +93,37 @@ json{
    ```bash
    mcp-cli test finance-analyzer
    ```
+### Running the Server
+## Method 1: Direct MCP Server (for Claude Desktop)
+```
+bash
+# Run MCP server directly
+python src/mcp_server.py
 
+# Or with logging
+python -u src/mcp_server.py 2>&1 | tee mcp_server.log
+```
+## Method 2: Web Server (for web access)
+```
+bash
+# Run FastAPI web server
+python src/web_server.py
+
+# Or with uvicorn directly
+uvicorn src.web_server:app --host 0.0.0.0 --port 8000 --reload
+```
+## Method 3: Docker Deployment
+```
+bash
+# Build Docker image
+docker build -t financial-doc-analyzer .
+
+# Run container
+docker run -p 8000:8000 --env-file .env financial-doc-analyzer
+
+# Or with docker-compose
+docker-compose up -d
+```
 ### Usage
 
 Once running, you can use Claude Desktop to:
