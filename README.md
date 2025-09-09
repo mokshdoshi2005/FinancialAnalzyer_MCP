@@ -16,14 +16,14 @@ This project tackles the challenge of making complex financial decisions accessi
 
 ## What We Built
 
-FinanceIQ Analyzer is an MCP (Model Context Protocol) server that provides intelligent financial document analysis capabilities. Our tool can:
+FinanceIQ Analyzer is an MCP (Model Context Protocol) server that processes financial documents and extracts key information. Our tool can:
 
 ### Core Features
 
-- **Loan Comparison Engine**: Automatically compare multiple loan offers and identify hidden fees
-- **Investment Contract Analysis**: Parse complex financial documents and highlight key terms
+- **Document Processing**: Extract key clauses, terms, and conditions from financial documents
+- **Intelligent Summarization**: Parse complex financial documents and highlight key terms
+- **Interactive Q&A:**: Calculate total costs and identify savings opportunities
 - **Mortgage Document Review**: Calculate total costs and identify savings opportunities
-- **Insurance Plan Optimization**: Compare coverage options and find optimal cost/benefit ratios
 
 ### Real-World Impact
 
@@ -93,9 +93,9 @@ FinanceIQ Analyzer is an MCP (Model Context Protocol) server that provides intel
 Once running, you can use Claude Desktop to:
 
 - Upload financial documents (PDFs, contracts, loan offers)
-- Ask for comparative analysis between multiple options
-- Request fee breakdowns and hidden cost identification
-- Get optimization recommendations
+- Request high-level summaries of complex financial documents
+- Ask specific questions about document content and term
+- Extract key clauses and conditions from uploaded files
 
 ## Tech Stack
 
