@@ -2,7 +2,7 @@
 
 An intelligent financial document analysis tool that helps individuals and businesses make informed financial decisions through automated contract review, loan comparison, and cost optimization.
 
-## Team: Code Crushers
+## Team: Fantastic404
 
 - Moksh Doshi
 - Arpit Chandra Singh
