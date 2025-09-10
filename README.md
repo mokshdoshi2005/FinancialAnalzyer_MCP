@@ -33,7 +33,10 @@ FinanceIQ Analyzer is an MCP (Model Context Protocol) server that processes fina
 - Save significant time through automated plan comparison (Insurance Plans)
 
 ### Example
-<img src="https://github.com/user-attachments/assets/fe006ad7-3f1f-460a-a294-42addbc99ada" alt="My cool screenshot" width="50%" style="display: block; margin: 0 auto;"/>
+<div style="text-align: center;">
+  <img src="https://github.com/user-attachments/assets/fe006ad7-3f1f-460a-a294-42addbc99ada" alt="My cool screenshot" width="50%">
+</div>
+
 
 ## How to Run It
 
