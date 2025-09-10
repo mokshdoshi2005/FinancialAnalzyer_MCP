@@ -32,6 +32,9 @@ FinanceIQ Analyzer is an MCP (Model Context Protocol) server that processes fina
 - Discover potential savings through mortgage optimization (Mortgage Analysis)
 - Save significant time through automated plan comparison (Insurance Plans)
 
+### Example
+![WhatsApp Image 2025-09-09 at 13 36 09_c4effc6a](https://github.com/user-attachments/assets/fe006ad7-3f1f-460a-a294-42addbc99ada)
+
 ## How to Run It
 
 ### Prerequisites
