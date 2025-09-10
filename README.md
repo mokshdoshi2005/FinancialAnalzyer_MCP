@@ -160,6 +160,8 @@ pytest-asyncio>=0.21.0
 requests>=2.31.0
 python-dotenv>=1.0.0
 ```
+## Smithery Server Deployment
+Hosted server with Smithery [here](https://smithery.ai/server/@mokshdoshi2005/financialanalzyer_mcp)
 ## Demo Video
 
 [Watch Demo Video](add link)
