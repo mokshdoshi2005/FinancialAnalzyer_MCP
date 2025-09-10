@@ -10,7 +10,7 @@ An MCP-powered financial document assistant that automatically parses complex fi
 
 ## Hackathon Challenge
 
-**Theme 2:** Build a Secure MCP Server for Agents (w/ Cequence)
+**Theme 2:** Build a Secure MCP Server for Agents
 
 This project tackles the challenge of making complex financial decisions accessible to everyone by automating document analysis, fee detection, and cost optimization across various financial scenarios.
 
@@ -33,7 +33,7 @@ FinanceIQ Analyzer is an MCP (Model Context Protocol) server that processes fina
 - Save significant time through automated plan comparison (Insurance Plans)
 
 ### Example
-![WhatsApp Image 2025-09-09 at 13 36 09_c4effc6a](https://github.com/user-attachments/assets/fe006ad7-3f1f-460a-a294-42addbc99ada)
+<img src="https://github.com/user-attachments/assets/fe006ad7-3f1f-460a-a294-42addbc99ada" alt="My cool screenshot" width="50%"/>
 
 ## How to Run It
 
